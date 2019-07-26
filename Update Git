@@ -1,0 +1,10 @@
+# Update Your existing repository (ADD DELETE FILES AND UPLOAD FILES)
+
+Git init
+git add .
+git remote add upstream https://github.com/NEONScience/DI-NEON-participants.git
+git pull upstream master
+git status
+git push origin master
+git commit -m "comments"
+git push origin master
